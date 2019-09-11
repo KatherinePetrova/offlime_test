@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Test Task</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap"
+      rel="stylesheet"
+      preload
+    />
+  </head>
+  <body>
+    <div class="main popup" id="popup">
+      <div class="popup__content" id="popup__content">
+        <div class="popup__block">
+          <div class="title">E-mail</div>
+          <div class="popup__block__content">
+            <a href="" class="email__content__link">ALMAT@FREEFLIGHT.KZ</a>
+            <a href="" class="email__content__link">assel@FREEFLIGHT.KZ</a>
+            <a href="" class="email__content__link" style="margin-top: 2em"
+              >FFSTUDIO@INBOX.RU</a
+            >
+            <label class="email__content__link">Напишите нам</label>
+          </div>
+        </div>
+        <div class="popup__block">
+          <div class="title">Телефоны</div>
+          <div class="popup__block__content">
+            <a href="" class="email__content__link">+7 7172 652 511</a>
+            <a href="" class="email__content__link">+7 7172 652 514</a>
+            <a href="" class="email__content__link">+7 7172 654 943</a>
+            <a href="" class="email__content__link" style="margin-top: 2em"
+              >+7 705 427 36 47</a
+            >
+          </div>
+        </div>
+        <div class="popup__block">
+          <div class="title">Адрес</div>
+          <label class="address">
+            Казахстан, Нур-Султан, <br />
+            пр. М. Жумабаева, 16/2
+          </label>
+          <a
+            href=""
+            class="email__content__link"
+            style="font-size: 14px; margin-top: 2em"
+          >
+            <img src="img/location.png" alt="" />
+            посмотреть на карте
+          </a>
+        </div>
+        <div class="popup__block">
+          <div class="title">Компания</div>
+          <div class="popup__block__content">
+            <a href="" class="email__content__link comp">Портфолио</a>
+            <a href="" class="email__content__link comp">Услуги</a>
+            <a href="" class="email__content__link comp">О нас</a>
+            <a href="" class="email__content__link comp">Контакты</a>
+            <a href="" class="email__content__link comp">Прайс-лист</a>
+            <a href="" class="email__content__link comp">Вакансии</a>
+          </div>
+        </div>
+      </div>
+      <div class="popup__footer" id="popup__footer">
+        <div class="instagram">
+          <label>instagram</label>
+          <label>facebook</label>
+          <img src="img/share__black.png" alt="" />
+        </div>
+        <div class="whatsapp">
+          Написать на whatsapp
+          <img src="img/whatsapp__red.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <header>
+        <img src="img/logo.png" alt="" class="logo" />
+        <div class="header__content" id="header__content">
+          <div class="search bur_on">
+            <img src="img/search__icon.png" alt="" class="icon" />
+            <input type="text" placeholder="Скажите, какую услугу Вы ищите?" />
+          </div>
+          <div class="topnav">
+            <a href="">Услуги</a>
+            <a href="">Контакты</a>
+            <a href="">О нас</a>
+          </div>
+          <a class="price" href="">
+            <img src="img/price__icon.png" alt="" class="icon" />
+            Прайс-лист
+          </a>
+          <a class="frame-2" href="">Оставить заявку</a>
+          <a class="frame-2 bur_on" href="">Заказать звонок</a>
+          <div class="phone">+7 7172 652 511</div>
+          <div class="burger" onclick="openBurger(this)" id="burger">
+            <div class="bar" id="bar1"></div>
+            <div class="bar" id="bar2"></div>
+            <div class="bar last" id="bar3"></div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="slider">
+          <div class="images">
+            <img src="img/slider__1.png" class="active" />
+          </div>
+        </div>
+        <div class="title">
+          <div class="title__main">ЦЕНТР ПОЛИГРАФИИ И НАРУЖНОЙ РЕКЛАМЫ</div>
+          <div class="title__sub">
+            Высший пилотаж и профессиональная стойкость более 12 лет.
+          </div>
+          <a href="" class="title__link">СВЯЗАТЬСЯ С НАМИ</a>
+        </div>
+      </div>
+      <div class="content__nav">
+        <div class="search">
+          <img src="img/search__icon.png" alt="" class="icon" />
+          <input
+            type="text"
+            placeholder="Скажите, какую услугу Вы ищите? Мы поможем найти."
+          />
+        </div>
+        <div class="slider__nav">
+          <div class="out_of">01 <span style="color: #C4C4C4">/ 05</span></div>
+          <div class="bar">
+            <div class="progress"></div>
+          </div>
+          <div class="arrows">
+            <a href="">
+              <img src="img/arrow__left.svg" alt="" />
+            </a>
+            <a href="">
+              <img src="img/arrow__right.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="map"></div>
+        <div class="footer__content">
+          <div class="footer__1">
+            <label>Напишите нам:</label>
+            <div class="nav">
+              <label>ffstudio@inbox.ru</label>
+              <div class="socials">
+                <img src="img/facebook.png" alt="" />
+                <img src="img/instagram.png" alt="" />
+                <img src="img/whatsapp.png" alt="" />
+                <img src="img/share.png" alt="" />
+              </div>
+              <a class="download" href="">Скачать презентацию</a>
+            </div>
+          </div>
+          <div class="footer__2">
+            <div class="title">
+              <label class="free__flight">Free Flight</label>
+              <label class="typography">Типография в Нур-Султан</label>
+              <label class="address"
+                >Казахстан, Нур-Султан, <br />
+                пр. М. Жумабаева, 16/2</label
+              >
+            </div>
+            <div class="footer__2__nav">
+              <a href="">О нас</a>
+              <a href="">Услуги</a>
+              <a href="">Контакты</a>
+              <a href="">Прайс-лист</a>
+              <a href="">Вакансии</a>
+            </div>
+            <div class="footer__2__phones">
+              <label>+7 7172 652 511</label>
+              <label>+7 7172 652 514</label>
+              <label>+7 7172 654 943</label>
+              <label>+7 705 427 36 47</label>
+            </div>
+            <div class="footer__2__phones">
+              <label style="font-size: 18px">ASSEL@FREEFLIGHT.KZ</label>
+              <label style="font-size: 18px">ALMAT@FREEFLIGHT.KZ</label>
+            </div>
+          </div>
+          <div class="footer__footer">
+            <div class="years">
+              © 2007-2019 ЦЕНТР ПОЛИГРАФИИ И НАРУЖНОЙ РЕКЛАМЫ
+            </div>
+            <img src="img/created.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="main__bg"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
